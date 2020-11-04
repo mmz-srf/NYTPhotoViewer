@@ -26,6 +26,8 @@ let package = Package(
             ],
             cSettings: [
              .headerSearchPath(""),
+                .headerSearchPath("Protocols"),
+                .headerSearchPath("Resource Loading"),
             ]
         )
     ]
