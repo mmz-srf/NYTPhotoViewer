@@ -24,7 +24,6 @@ let package = Package(
             resources: [
                 .process("NYTPhotoViewer.bundle")
             ],
-            publicHeadersPath: "",
             cSettings: [
              .headerSearchPath(""),
             ]
