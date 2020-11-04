@@ -22,14 +22,12 @@ let package = Package(
 			path: "NYTPhotoViewer",
 			exclude: ["NYTPhotoViewer.bundle", "Info.plist"],
             resources: [
-                .process("NYTPhotoViewer/NYTPhotoViewer.bundle")
+                .process("NYTPhotoViewer.bundle")
             ],
+            publicHeadersPath: "",
             cSettings: [
-              .headerSearchPath(""),             .headerSearchPath("Protocols"),
-                .headerSearchPath("Resource Loading"),
-               ]
-            )
-			
-			
+             .headerSearchPath(""),
+            ]
+        )
     ]
 )
